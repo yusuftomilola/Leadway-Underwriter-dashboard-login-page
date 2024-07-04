@@ -12,23 +12,27 @@
     <main>
       <!-- LEFT CONTAINER -->
       <section
-        class="left-container pl-[50px] pt-[30px] pr-[50px] w-full sm:w-2/5"
+        class="left-container w-full pl-[50px] pt-[30px] pr-[50px] sm:pl-[20px] sm:pr-[10px] sm:w-1/2 md:pl-[60px] md:pt-[40px] lg:pl-[70px] lg:pt-[50px] xl:pl-[80px] xl:pt-[60px] 2xl:pl-[90px] 2xl:pt-[70px]"
       >
         <!-- Logo Container -->
-        <div class="logo-container w-[55px] h-[100px]">
+        <div
+          class="logo-container w-[55px] h-[100px] md:w-[58px] md:h-[105px] lg:w-[60px] lg:h-[110px] xl:w-[62px] xl:h-[115px] 2xl:w-[64px] 2xl:h-[120px]"
+        >
           <!-- Logo -->
           <img src="./leadway-logo.svg" alt="leadway logo" />
         </div>
 
         <!-- Background Image -->
         <div
-          class="mobile-background md:hidden w-[full] h-[110px] ml-[-50px] mr-[-50px] mb-[20px]"
+          class="mobile-background sm:hidden w-[full] h-[110px] ml-[-50px] mr-[-50px] mb-[20px]"
         ></div>
 
         <!-- // -->
         <!-- heading Container -->
         <div class="mb-[30px] sm:mb-[50px]">
-          <h1 class="font-bold text-[20px] text-[#585858]">
+          <h1
+            class="font-bold text-[20px] text-[#585858] sm:text-[24px] md:text-[26px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px]"
+          >
             Underwriter Dashboard
           </h1>
           <p class="text-[11px] text-[#AFB0B1]">
@@ -38,7 +42,9 @@
 
         <!-- // -->
         <!-- Form Container -->
-        <form class="flex flex-col gap-[20px]">
+        <form
+          class="flex flex-col gap-[20px] md:max-w-[350px] lg:max-w-[400px] xl:max-w-[450px] 2xl:max-w-[500px]"
+        >
           <!-- // -->
           <!-- Login ID container -->
           <div
@@ -99,7 +105,7 @@
           <!-- Login Button -->
           <button
             type="button"
-            class="bg-[#FF7A00] w-full text-white pt-[8px] pb-[8px] rounded-[5px] text-[13px] login-box-shadow"
+            class="bg-[#FF7A00] w-full text-white pt-[10px] pb-[10px] rounded-[3px] text-[13px] login-box-shadow"
           >
             Login
           </button>
@@ -108,7 +114,7 @@
 
       <!-- RIGHT CONTAINER -->
       <section
-        class="right-container relative sm:w-3/5 sm:h-screen max-sm:hidden"
+        class="right-container relative sm:w-1/2 sm:h-screen max-sm:hidden"
       >
         <!-- help text image container -->
         <div>
@@ -120,18 +126,24 @@
         </div>
 
         <!-- Content Management Container -->
-        <div class="customer-container flex bg-[#fff] rounded-[5px] w-[300px]">
-          <div class="bg-gray-200 flex content-center p-[10px] rounded-l-[5px]">
+        <div
+          class="customer-container flex bg-[#fff] rounded-[5px] w-[290px] gap-[8px] md:w-[300px] lg:w-[380px]"
+        >
+          <div
+            class="bg-[#F3F5F6] flex content-center p-[10px] rounded-l-[5px] w-[120px] place-content-center"
+          >
             <img
               src="./customers-icon.svg"
               alt="cutomers icon"
-              class="w-[50px]"
+              class="w-[40px]"
             />
           </div>
 
-          <div class="flex flex-col justify-center gap-[5px] p-[10px]">
-            <p class="text-[12px] font-bold">Customer Management</p>
-            <p class="text-[10px]">
+          <div class="flex flex-col justify-center gap-[8px] p-[10px]">
+            <p class="text-[12px] font-bold text-[#585858]">
+              Customer Management
+            </p>
+            <p class="text-[9px] text-[#585858]">
               Manage all customers from individual customers to corporate or
               group customers.
             </p>

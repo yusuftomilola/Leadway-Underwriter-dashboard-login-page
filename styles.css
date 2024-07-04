@@ -51,6 +51,10 @@ img {
 }
 
 .customer-container {
-  position: absolute;
-  bottom: 20px;
+  position: absolute; /* Absolute positioning allows margin:auto to work */
+  top: 85%; /* Set top position to 90% */
+  transform: translateY(-80%); /* Offset top position by half its height */
+  left: 50%; /* Center horizontally with margin:auto */
+  transform: translateX(-50%); /* Offset left position by half its width */
+  margin: 0 auto;
 }
