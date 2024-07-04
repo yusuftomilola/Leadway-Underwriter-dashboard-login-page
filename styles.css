@@ -58,3 +58,15 @@ img {
   transform: translateX(-50%); /* Offset left position by half its width */
   margin: 0 auto;
 }
+
+.bg-svg-background {
+  background-image: url("./right-leadway-image-background.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.no-border-on-focus:focus {
+  outline: none;
+  border: none;
+}
